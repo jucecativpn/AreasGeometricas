@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c9cbca;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;
+*/
+}
+
+.contenedor{
+    background-color: #f0f1f1;
+    margin: 10px auto;
+    max-width: 45%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h1{
+    margin: 6px;
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input{
+    width: 95%;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+select{
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+button{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #1c2441;
+    border-radius: 20px;
+}
+
+.formulario{
+    /* Desactiva las opciones del SELECT
+    del HTML para no mostras sus opciones */
+    display: none;
+}
+
+#resultado{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    /*
+    background-color: #f0f5f2;
+    padding: 15px 10px 15px 20px;
+    border-radius: 30px;
+    */
+}
+.figura-imagen{
+    max-width: 100%;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+/* Añade el siguiente estilo para ocultar 
+la sección de despedida por defecto */
+#despedidaContainer {
+    display: none;
+    text-align: center;
+}
+
+#despedidaImagen {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+#despedidaContainer p {
+    font-size: 28px;
+    font-weight: bold;
+    /* Espaciado superior para el mensaje */
+    margin-top: 20px; 
+    
+}
+
